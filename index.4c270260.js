@@ -1,2 +1,0 @@
-!function(){var e={openModalBtn:document.querySelector("[data-modal-open]"),openMobileModalBtn:document.querySelector("[data-mobile-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]"),body:document.querySelector("[data-body-overflow]")};function o(){e.modal.classList.toggle("is-hidden"),e.body.classList.toggle("no-scrol")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.openMobileModalBtn.addEventListener("click",o)}();
-//# sourceMappingURL=index.4c270260.js.map
