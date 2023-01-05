@@ -1,58 +1,62 @@
-<header class="site-header">
-    <div class="container">
-        <div class="header">
-            <div class="header-wrap">
-                <a href="#" class="header-logo">
-                    <img src="./images/header-hero/logo.png" alt="Логотип" width="50" class="logo-icon">
-                    <span class="logo-text">Icecream</span>
-                </a>
-            
-                <nav class="header-nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="#home">Home</a></li>
-                        <li class="nav-item"><a href="#about-us">About us</a></li>
-                        <li class="nav-item"><a href="#about">How it’s made?</a></li>
-                        <li class="nav-item"><a href="#products">Our products</a></li>
-                        <li class="nav-item"><a href="#contacts">Contact</a></li>
-                    </ul>
-                </nav>
-            
-                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-                    <svg height="12" width="20">
-                        <use href="./images/sprite.svg#burger"></use>
-                    </svg>
-                </button>
-            
-                <button type="button" class="header__button button--white" data-modal-open>
-                    Buy now
-                    <svg height="12" width="20">
-                        <use href="./images/sprite.svg#arrow-short"></use>
-                    </svg>
-                </button>
-            
-                <div class="mobile-menu js-menu-container" id="mobile-menu">
-                    <button class="menu-toggle js-close-menu">
-                        <svg height="12" width="20">
-                            <use href="./images/sprite.svg#close"></use>
-                        </svg>
-                    </button>
-            
-                    <button type="button" class="header__button-menu button--white" data-mobile-modal-open>
-                        Buy now
-                        <svg height="12" width="20">
-                            <use href="./images/sprite.svg#arrow-short"></use>
-                        </svg>
-                    </button>
-            
-                    <ul class="menu-list">
-                        <li class="menu-item"><a class="menu-link" href="#home">Home</a></li>
-                        <li class="menu-item"><a class="menu-link" href="#about-us">About us</a></li>
-                        <li class="menu-item"><a class="menu-link" href="#about">How it’s made?</a></li>
-                        <li class="menu-item"><a class="menu-link" href="#products">Our products</a></li>
-                        <li class="menu-item"><a class="menu-link" href="#contacts">Contact</a></li>
-                    </ul>
-                </div>
+<header class="header">
+    <div class="header__container container">
+
+        <a class="logo" href="/">
+            <svg class="logo__icon" width="114" height="34">
+                <use href="./images/logo/logo.svg#icon-Logo"></use>
+            </svg>
+        </a>
+        <nav class="header__nav">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="/">Desitnations</a></li>
+                <li class="nav-list__item"><a href="/">Hotels</a></li>
+                <li class="nav-list__item"><a href="/">Flights</a></li>
+                <li class="nav-list__item"><a href="/">Bookings</a></li>
+                <li class="nav-list__item"><button type="submit">Login</button></li>
+                <li class="nav-list__item"><button type="submit">Sign up</button></li>
+                <li class="nav-list__item">
+                    <select>
+                        <option>EN
+                        <option>
+                        <option value="/en/">EN
+                        <option>
+                        <option value="/uk/">Uk
+                        <option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+<!-- mobile menu -->
+        <button class="menu-open" data-menu-open>
+            <svg class="menu-burger" width="24" height="16">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+            </button>
+          <div class="mob-menu is-hidden" data-menu>
+              <button class="menu-close" data-menu-close>
+                <svg class="menu-close" width="40" height="40">
+                  <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+              </button>
+              <ul class="mob-menu-list list">
+                <li class="mob-menu-list__item"><a href="/">Desitnations</a></li>
+                <li class="mob-menu-list__item"><a href="/">Hotels</a></li>
+                <li class="mob-menu-list__item"><a href="/">Flights</a></li>
+                <li class="mob-menu-list__item"><a href="/">Bookings</a></li>
+                <li class="mob-menu-list__item"><button type="submit">Login</button></li>
+                <li class="mob-menu-list__item"><button type="submit">Sign up</button></li>
+                <li class="mob-menu-list__item">
+                    <select>
+                        <option>EN
+                        <option>
+                        <option value="/en/">EN
+                        <option>
+                        <option value="/uk/">Uk
+                        <option>
+                    </select>
+                </li>
+              </ul>
             </div>
-        </div>
+
     </div>
 </header>

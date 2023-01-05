@@ -1,27 +1,31 @@
-.button {
-    width: 114px;
-    height: 42px;
-    background: var(--clr-accent);
-    border-radius: 10px;
+button {
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+}
+ 
+ 
+ 
+ .primery-button {
+    background: #098191;
+    transition: background ease .25s;
+    display: inline-block;
     border: none;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: calc(15 / 12);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--clr-text-dark);
+    padding: 0.75rem 1.5rem;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+
   }
 
-  .button-buy {
-    @extend .button;
-    width: 152px;
-    color: var(--clr-text-darkest);
-    line-height: calc(17 / 14);
-  }
 
-  .button-read{
-    @extend .button-buy;
-    width: 164px;
-    line-height: calc(18 / 14);
+  button:hover {
+    background: #63b6b8
   }
+  button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+  }
+    
