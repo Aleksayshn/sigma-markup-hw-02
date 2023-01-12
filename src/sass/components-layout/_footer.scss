@@ -1,0 +1,97 @@
+footer {
+    background:linear-gradient(342deg, rgba(213, 174, 228, 1) 0%, rgba(255, 255, 255, 1) 44%);
+    margin-bottom: 79px;
+}
+
+  .footer__body {
+    justify-content: center;
+    display: flex;
+    gap: 83px;
+    padding-bottom: 84px;
+    flex-wrap: wrap;
+  }
+  
+  .footer__quote-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #181e4b;
+    padding-bottom: 19px;
+  }
+  
+  .footer__quote-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 124.5%;
+    color: #5e6282;
+    max-width: 207px;
+  }
+  
+  .footer__links {
+    flex: 0 1 auto;
+    display: flex;
+    column-gap: 81.5px;
+    padding-top: 21px;
+  }
+  
+  .footer__links-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 124.5%;
+    color: #080809;
+    padding-bottom: 34px;
+  }
+  
+  .footer__links-link a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #5e6282;
+  }
+  
+  .footer__links-link a:hover {
+    color: #f1a501;
+  }
+  
+  .footer__links-link:not(:last-child) {
+    padding-bottom: 12px;
+  }
+  
+  .footer__discover {
+    display: flex;
+    flex-direction: column;
+    column-gap: 27px;
+  }
+  
+  .footer__discover-social {
+    padding-bottom: 30px;
+  }
+  
+  .footer__discover-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124.5%;
+    letter-spacing: 0.005em;
+    color: #5e6282;
+    padding-bottom: 16px;
+  }
+  
+  .footer__mail {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    color: #5e6282;
+    text-align: center;
+  }

@@ -1,0 +1,106 @@
+.subscription {
+    margin-bottom: 166px;
+  }
+  
+  .subscription__container {
+    background-color: rgba(223, 215, 249, 0.2);
+    border-radius: 129px 20px 20px 20px;
+    position: relative;
+  }
+  
+  .subscription__title {
+    opacity: 1;
+    padding-top: 79px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 54px;
+    text-align: center;
+    color: #5e6282;
+    padding-bottom: 74px;
+  }
+  
+  .subscription__form {
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    column-gap: 24px;
+    max-width: 800px;
+    padding-bottom: 78px;
+  }
+  
+  .subscription__container::before {
+    content: "";
+    margin-top: 122px;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    background-image: url("../images/input-decor_01.svg");
+    background-repeat: no-repeat;
+    width: 389.45px;
+    height: 397.19px;
+    opacity: 0.2;
+  }
+  
+  .subscription__container::after {
+    content: "";
+    z-index: 10;
+    position: absolute;
+    background-image: url("../images/input-decor_02.svg");
+    background-repeat: no-repeat;
+    width: 284.8px;
+    height: 290.88px;
+    opacity: 0.2;
+    top: 0;
+    right: 0;
+  }
+  
+  .subscription__input {
+    padding-right: 280px;
+    padding-top: 25px;
+    padding-bottom: 26px;
+    padding-left: 66px;
+    background-position: center left;
+    background-position-x: 33px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425d;
+  }
+  
+  .subscription input:focus,
+  .subscription textarea:focus,
+  .subscription select:focus {
+    outline-color: #f1a501;
+    outline-width: 5px;
+  }
+  
+  .subscription__input::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425d;
+    padding-right: 280px;
+  }
+  
+  .subscription__btn {
+    font-family: "Google Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+    border-radius: 10px;
+    width: 180px;
+    height: 68px;
+  }
