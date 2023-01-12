@@ -1,6 +1,6 @@
-footer {
+.footer {
     background:linear-gradient(342deg, rgba(213, 174, 228, 1) 0%, rgba(255, 255, 255, 1) 44%);
-    margin-bottom: 79px;
+    padding-bottom: 79px;
 }
 
   .footer__body {
@@ -72,6 +72,7 @@ footer {
   }
   
   .footer__discover-social {
+    display: flex;
     padding-bottom: 30px;
   }
   
@@ -95,3 +96,8 @@ footer {
     color: #5e6282;
     text-align: center;
   }
+
+.footer__discover-apps {
+    display: flex;
+    gap: 2px;
+}
